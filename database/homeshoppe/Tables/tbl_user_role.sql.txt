@@ -1,0 +1,1 @@
+create table tbl_user_role(pk_int_user_role_id int(11) not null primary key auto_increment,vchr_username varchar(20));

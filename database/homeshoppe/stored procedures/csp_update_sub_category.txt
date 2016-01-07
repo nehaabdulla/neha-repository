@@ -1,0 +1,5 @@
+delimiter //
+create procedure csp_update_sub_category(id int,name varchar(20))
+begin
+update tbl_sub_category set vchr_sub_name=name where pk_int_sub_id=id;
+end// 

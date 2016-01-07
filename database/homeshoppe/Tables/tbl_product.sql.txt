@@ -1,0 +1,2 @@
+create table tbl_product(pk_int_product_id int(11) not null primary key auto_increment,vchr_product_name varchar(20),int_price int(11),vchr_desc varchar(50),
+int_quantity int(11),fk_int_sub_id int(11));
