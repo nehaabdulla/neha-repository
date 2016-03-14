@@ -1,0 +1,12 @@
+<?php
+class Services_api extends CI_Controller
+{
+	function insert() 
+	 {
+
+		$json=file_get_contents("php//input");
+		$post=json_decode($json,true);
+		$this->db->query("call csp_reg_log(?,?,?,?,?,?)",$post);
+        	    
+	 }
+	}
