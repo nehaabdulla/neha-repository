@@ -1,2 +1,0 @@
-create table tbl_registration(pk_int_reg_id int(11) not null primary key auto_increment,vchr_fname varchar(20),vchr_lname varchar(20),vchr_address varchar(20),
-int_mobilenumber int(11),fk_int_login_id int(11),dat_date date);

@@ -1,1 +1,0 @@
-create table tbl_stock(pk_int_stock_id int(11) not null primary key auto_increment,fk_int_product_id int(11),int_quantity int(11));

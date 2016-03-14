@@ -1,5 +1,0 @@
-delimiter //
-create procedure csp_insert_product(in vchr_product_name varchar(20),in int_price int,in vchr_desc varchar(50),in int_quantity int,in fk_int_sub_id int)
-begin
-insert into tbl_product(vchr_product_name,int_price,vchr_desc,int_quantity,fk_int_sub_id) values (vchr_product_name,int_price,vchr_desc,int_quantity,fk_int_sub_id);
-end//

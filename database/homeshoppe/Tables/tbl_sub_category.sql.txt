@@ -1,1 +1,0 @@
-create table tbl_sub_category(pk_int_sub_id int(11) not null primary key auto_increment,vchr_sub_name varchar(20),fk_int_cat_id int(11));

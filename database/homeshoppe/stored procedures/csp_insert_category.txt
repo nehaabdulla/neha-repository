@@ -1,5 +1,0 @@
-delimiter //
-create procedure csp_insert_category(in vchr_cat_name varchar(20))
-begin
-insert into tbl_category(vchr_cat_name) values (vchr_cat_name);
-end//
